@@ -1,0 +1,11 @@
+{
+    "name": "@tarot-gpt/config",
+    "version": "0.0.0",
+    "main": "./index.js",
+    "types": "./index.d.ts",
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "eslint": "^8.0.0",
+        "prettier": "^3.0.0"
+    }
+}

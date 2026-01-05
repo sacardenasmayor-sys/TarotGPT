@@ -1,0 +1,110 @@
+{
+    "project": "TarotGPT",
+    "version": "0.1.3",
+    "stories": [
+        {
+            "id": "MVP-01",
+            "title": "LLM Chat Interface & Prompt System",
+            "description": "As a Seeker, I want to chat with the AI to refine my intent. Tech Note: Requires a structured prompt system and STREAMING response handling.",
+            "status": "TODO",
+            "priority": "High",
+            "type": "feature",
+            "acceptance_criteria": [
+                "UI displays specific suggestion bubbles (Quick Chips).",
+                "System implements a 'Reasoning Chain' to ask clarifying questions.",
+                "LLM responses stream token-by-token to UI (Time to First Token < 1.5s).",
+                "Typing indicators must be 'mystical'."
+            ]
+        },
+        {
+            "id": "MVP-02",
+            "title": "Virtual Deck State Engine (Logic Only)",
+            "description": "As a developer, I want a deterministic data structure for the deck so that the simulation is preserved across app restarts.",
+            "status": "TODO",
+            "priority": "Critical",
+            "type": "backend",
+            "acceptance_criteria": [
+                "Array of 78 card objects initialized with unique IDs.",
+                "Fisher-Yates shuffle algorithm implementation.",
+                "State persistence (Redux/Context + AsyncStorage) to save deck order."
+            ]
+        },
+        {
+            "id": "MVP-03",
+            "title": "Interactive Deck Renderer & Transitions",
+            "description": "As a user, I want smooth 60fps animations and a fluid transition from Chat to Table.",
+            "status": "TODO",
+            "priority": "High",
+            "type": "frontend",
+            "acceptance_criteria": [
+                "Seamless morph/fade transition from Chat View to Deck View (no loading spinners).",
+                "React Native Reanimated implementation for card movements.",
+                "Complex Haptic feedback profile (Tick = Shuffle, Heavy Thud = Drop)."
+            ]
+        },
+        {
+            "id": "MVP-09",
+            "title": "Design System & Thematic Engine",
+            "description": "As a UI Designer, I need a centralized system that supports 'Thematic Progression' (shifting colors based on session phase).",
+            "status": "TODO",
+            "priority": "High",
+            "type": "design",
+            "acceptance_criteria": [
+                "Define Typography and Color Palette.",
+                "Implement 'ThemeContext' that interpolates colors (Light -> Dark -> Gold) based on state.",
+                "Export high-res card assets."
+            ]
+        },
+        {
+            "id": "MVP-10",
+            "title": "Hybrid Authentication Flow",
+            "description": "As a new user, I want to try a reading without signing up immediately.",
+            "status": "TODO",
+            "priority": "Medium",
+            "type": "feature",
+            "acceptance_criteria": [
+                "Allow 'Guest' session start.",
+                "Prompt for Sign-up/OAuth only after reading is complete (to save history).",
+                "Merge Guest data into new account upon creation."
+            ]
+        },
+        {
+            "id": "MVP-07",
+            "title": "[SPIKE] Animation Performance Prototype",
+            "description": "Evaluate React Native Skia vs. Reanimated for handling 78 concurrent card sprites.",
+            "status": "TODO",
+            "priority": "Critical",
+            "type": "chore",
+            "acceptance_criteria": [
+                "Prototype created with 78 moving elements.",
+                "Benchmark report for iOS and Android."
+            ]
+        },
+        {
+            "id": "MVP-08",
+            "title": "Local Data Privacy & Obfuscation",
+            "description": "As a skeptical user, I want my personal queries to be stored securely.",
+            "status": "TODO",
+            "priority": "High",
+            "type": "security",
+            "acceptance_criteria": [
+                "User chat history stored encrypted in local storage.",
+                "API calls to LLM do not send persistent user ID unless necessary.",
+                "Clear 'Delete History' button functional."
+            ]
+        },
+        {
+            "id": "MVP-05",
+            "title": "Card Reveal & Interpretation",
+            "description": "As a user, I want to flip cards to see their meaning and get a synthesized final answer.",
+            "status": "TODO",
+            "priority": "High",
+            "type": "feature",
+            "acceptance_criteria": [
+                "Tap to flip individual cards with 3D rotation.",
+                "Card Reveal triggers 'Magical' particle effect.",
+                "LLM generates 'Macro' synthesis linking all cards to query."
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+
+
+> api@0.0.1 lint /Users/sebastiancardenasmayor/Desktop/SouthLab/TarotGPT/TarotGPT/apps/api
+> eslint "{src,apps,libs,test}/**/*.ts"
+
+[0m[0m
+[0m[4m/Users/sebastiancardenasmayor/Desktop/SouthLab/TarotGPT/TarotGPT/apps/api/src/main.ts[24m[0m
+[0m  [2m6:20[22m  [33mwarning[39m  No magic number: 3000         [2m@typescript-eslint/no-magic-numbers[22m[0m
+[0m  [2m7:3[22m   [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[33m[1m✖ 2 problems (0 errors, 2 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[0m
