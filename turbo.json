@@ -11,6 +11,12 @@
                 "^build"
             ]
         },
+        "test": {
+            "outputs": [
+                "coverage/**"
+            ],
+            "dependsOn": []
+        },
         "lint": {},
         "dev": {
             "cache": false,

@@ -1,0 +1,8 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🛡️  QA Protocol: Initiating Security Audit..."
+pnpm audit --audit-level=high
+
+echo "🧪 QA Protocol: Running Test Suite..."
+pnpm run test

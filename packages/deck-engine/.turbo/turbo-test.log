@@ -1,0 +1,32 @@
+
+
+> @tarot-gpt/deck-engine@0.0.0 test /Users/sebastiancardenasmayor/Desktop/SouthLab/TarotGPT/TarotGPT/packages/deck-engine
+> vitest run --reporter=verbose --reporter=junit --outputFile=test-report.xml
+
+[?25l
+[1m[46m RUN [49m[22m [36mv4.0.16 [39m[90m/Users/sebastiancardenasmayor/Desktop/SouthLab/TarotGPT/TarotGPT/packages/deck-engine[39m
+
+[?2026h
+[1m[33m ❯ [39m[22msrc/__tests__/smoke.test.ts[2m [queued][22m
+
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (0)[39m
+[2m   Start at [22m18:16:50
+[2m   Duration [22m201ms
+[?2026l[?2026h[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K
+[1m[33m ❯ [39m[22msrc/__tests__/smoke.test.ts[2m 0/2[22m
+
+[2m Test Files [22m[1m[32m0 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m[1m[32m0 passed[39m[22m[90m (2)[39m
+[2m   Start at [22m18:16:50
+[2m   Duration [22m503ms
+[?2026l[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K[1A[K [32m✓[39m src/__tests__/smoke.test.ts[2m > [22mDeck Engine Smoke Test (PBT)[2m > [22mshould pass a basic property based test[32m 6[2mms[22m[39m
+ [32m✓[39m src/__tests__/smoke.test.ts[2m > [22mDeck Engine Smoke Test (PBT)[2m > [22mshould verify that deck size invariant holds (simulation)[32m 1[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m1 passed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[32m2 passed[39m[22m[90m (2)[39m
+[2m   Start at [22m 18:16:50
+[2m   Duration [22m 524ms[2m (transform 44ms, setup 0ms, import 294ms, tests 8ms, environment 0ms)[22m
+
+JUNIT report written to /Users/sebastiancardenasmayor/Desktop/SouthLab/TarotGPT/TarotGPT/packages/deck-engine/test-report.xml
+[?25h

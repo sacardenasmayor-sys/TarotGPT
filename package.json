@@ -6,13 +6,17 @@
         "dev": "turbo run dev",
         "lint": "turbo run lint",
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-        "test": "turbo run test"
+        "test": "turbo run test",
+        "audit": "pnpm audit --audit-level=high",
+        "prepare": "husky"
     },
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^8.52.0",
         "@typescript-eslint/parser": "^8.52.0",
         "eslint": "^8.0.0",
         "eslint-config-prettier": "^10.1.8",
+        "husky": "^9.1.7",
+        "lint-staged": "^16.2.7",
         "prettier": "latest",
         "turbo": "latest"
     },
@@ -20,5 +24,18 @@
         "node": ">=18",
         "pnpm": ">=8"
     },
-    "packageManager": "pnpm@9.0.0"
+    "packageManager": "pnpm@9.0.0",
+    "pnpm": {
+        "overrides": {
+            "glob@>=10.0.0": "^10.5.0",
+            "qs": "^6.14.1",
+            "semver": "^7.6.0"
+        },
+        "auditConfig": {
+            "ignoreCves": [
+                "CVE-2024-29415",
+                "CVE-2023-42282"
+            ]
+        }
+    }
 }

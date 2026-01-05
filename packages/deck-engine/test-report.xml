@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="2" failures="0" errors="0" time="0.008438424">
+    <testsuite name="src/__tests__/smoke.test.ts" timestamp="2026-01-05T21:16:51.245Z" hostname="Sebastians-MacBook-Pro.local" tests="2" failures="0" errors="0" skipped="0" time="0.008438424">
+        <testcase classname="src/__tests__/smoke.test.ts" name="Deck Engine Smoke Test (PBT) &gt; should pass a basic property based test" time="0.006127487">
+        </testcase>
+        <testcase classname="src/__tests__/smoke.test.ts" name="Deck Engine Smoke Test (PBT) &gt; should verify that deck size invariant holds (simulation)" time="0.00066716">
+        </testcase>
+    </testsuite>
+</testsuites>

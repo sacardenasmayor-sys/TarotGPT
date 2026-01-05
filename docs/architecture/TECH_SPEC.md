@@ -17,6 +17,7 @@ TarotGPT is a mobile application delivering AI-powered tarot readings. It uses a
 
 - **Framework**: React Native (Expo Managed Workflow)
 - **UI Library**: React Native Reanimated (Animations), React Native Skia (High-fidelity VFX)
+  > **[SPIKE IN PROGRESS - MVP-07]**: Evaluating performance trade-offs between Reanimated (View-based) and Skia (Canvas-based) for the 78-card deck simulation.
 - **State Management**: Zustand (lightweight, decoupled)
 - **Navigation**: Expo Router (file-based routing)
 
